@@ -58,7 +58,7 @@ try:
     IP = requests.get("http://ip-api.com/json/").json()["query"]
     ___ccc___ = requests.get("http://ip-api.com/json/").json()["country"]
     if "Bangladesh" not in ___ccc___:
-       os.system('xdg-open https://github.com/TVAHMED")
+      
        print("\033[1;91m[×] THIS TOOL WORK IN BANGLADESH+ PAKISTAN")
        time.sleep(3);exit()
 except requests.exceptions.ConnectionError:
@@ -72,15 +72,15 @@ try:
         os.system('clear')
         for j in range(3000):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/TVAHMED")
+ 
             print(f'\033[1;92m Tool is updating Wait For Complete The Update')
         exit()
     elif "off" in srv:
         os.system('clear')
         for j in range(1000):
             time.sleep(0.5)
-            os.system('xdg-open https://github.com/TVAHMED')
-            print(f'\033[1;91m PROPERTY of AHMED(SHAR)')
+           
+            print(f'\033[1;91m PROPERTY of AHMED(SHAR)'
         exit()
     print(f"\033[1;91m Connection Problem, Please Check Your Internet And Run Again")
 
