@@ -76,8 +76,6 @@ try:
         os.system('clear')
         for j in range(1000):
             time.sleep(0.5)           
-            print(f'\033[1;91m PROPERTY of AHMED(SHAR)'
-        exit()
     print(f"\033[1;91m Connection Problem, Please Check Your Internet And Run Again")
 fbks = random.choice(['com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite'])
 AMSS1 = random.choice(['MessengerLite', 'FB4A;FBAV', 'FB4A'])
