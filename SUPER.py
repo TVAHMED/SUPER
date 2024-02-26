@@ -14,7 +14,7 @@ except requests.exceptions.ConnectionError:
 try:
     import requests
 except ImportError:
-    print('\n \033[1;91m[\033[1;93mAHMED-143\033[1;91m]\033[1;97m installing requests !...\n')
+   
     time.sleep(0.5)
     os.system('pip install requests')
 import bs4,json,sys,random,datetime,time,re,subprocess,platform,struct,requests
@@ -37,8 +37,6 @@ try:
     import bs4
 except ImportError:
     print('\n \033[1;91m[\033[1;93mTVAHMED\033[1;91m]\033[1;97m installing bs4 !...\n')
-    time.sleep(0.5)
-    os.system('pip install bs4')
 import os
 import sys
 import time
@@ -60,9 +58,6 @@ try:
     if "Bangladesh" not in ___ccc___:
        print("\033[1;91m[×] THIS TOOL WORK IN BANGLADESH+ PAKISTAN")
        time.sleep(3);exit()
-except requests.exceptions.ConnectionError:
-    print(f"\033[1;91m[×] Connection Problem, Please Check Your Internet And Run Again")
-    time.sleep(3);exit()
 try:
     os.system('clear')
     srv=requests.get('https://raw.githubusercontent.com/TVAHMED/AHMED/main/srv.txt').text 
@@ -359,6 +354,5 @@ def ___random___(ids,passlist):
         pass
         
 if __name__=="__main__":
-    os.system('clear')
-    os.system('git pull')
+    os.system('clear'
 AHMED()
